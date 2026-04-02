@@ -1,4 +1,5 @@
 import 'package:electric_praise/components/goal_progress_bar.dart';
+import 'package:electric_praise/components/main_card.dart';
 import 'package:electric_praise/styling/App_styles.dart';
 import 'package:electric_praise/styling/app_colors.dart';
 import 'package:electric_praise/styling/custom_app_bar.dart';
@@ -87,6 +88,7 @@ class Home extends StatelessWidget {
                 ),
               ),
             ),
+            MainCard(child: Icon(Icons.abc_outlined), onPressed: () {}),
           ],
         ),
       ),
